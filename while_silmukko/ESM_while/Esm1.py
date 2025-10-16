@@ -7,6 +7,7 @@
 #🔹 Esimerkkejä
 #Perusesimerkki
 i = 0
+summa = 0
 while i < 5:
     print("luku on", i)
     i += 1
