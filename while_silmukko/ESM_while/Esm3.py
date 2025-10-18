@@ -4,4 +4,5 @@ while True:
     if komento == "lopettaa":
         print("Ohjelma päätty")
         break
+#➡️ while True luo ikuisen silmukan, jota break voi keskeyttää.
     

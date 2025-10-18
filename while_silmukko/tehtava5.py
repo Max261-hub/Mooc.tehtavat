@@ -6,5 +6,5 @@ while True:
     luku = int(input("Anna luku: "))
     if luku == 0:
         break
-summa += 1
+    summa += 1
 print("lukujen summa on", summa)

@@ -10,4 +10,4 @@ while arvaus != numerot:
         print("Liian suuri!")
     else:
         print("Oikein!")
-#
+#➡️ Käytännöllinen esimerkki, kun halutaan toistaa kunnes käyttäjä osuu oikeaan.
