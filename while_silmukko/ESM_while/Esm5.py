@@ -10,6 +10,6 @@ else:
 
 #Jos unohdat muuttaa ehtoa silmukan sisällä, voit saada ikuisen silmukan:
 i = 0
-while i < 5:
+while i <= 5:
     print(i)
-    # i += 1 puuttuu! -> ohjelma ei koskaan lopu
+    i += 1 #puuttuu! -> ohjelma ei koskaan lopu
