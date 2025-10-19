@@ -12,6 +12,32 @@ sana = input("Anna sana: ")
 luku = int(input("Kuinka määrä:"))
 print(sana * luku)
 
+# Kysytään käyttäjältä sana ja toistomäärä
+sana = input("Sana: ")
+maara = int(input("Kuinka monta kertaa: "))
+
+i = 0
+tulos = ""
+
+# Toistetaan, kunnes i on yhtä suuri kuin määrä
+while i < maara:
+    tulos = tulos + sana
+    i += 1
+
+print(tulos)
+
+#for silmukkalla
+sana = input("Sana: ")
+maara = int(input("Kuinka monta kertaa: "))
+
+tulos = ""
+
+for i in range(maara):
+    tulos = tulos + sana
+
+print(tulos)
+
+
 #🌟 Tehtävä 3: Koristeellinen kehys (+ ja * yhdessä)
 #Tehtävänanto:
 #Kysy käyttäjältä sana ja tee siitä koristeltu versio, jossa sana on kahden tähtirivin välissä.
