@@ -24,6 +24,8 @@ laske_nelio()
 laske_nelio()
 laske_nelio()
 
+
+
 #Hienoa! 😄 Nyt tehdään kolmas ja tärkeä tehtävä — funktio, joka ottaa parametrin ja palauttaa arvon.
 #Tämä on iso askel kohti oikeiden ohjelmien rakentamista! 💪
 
@@ -34,6 +36,10 @@ laske_nelio()
 #💡 Ohje:
 #Kirjoita tämä ohjelma:
 def laske_kuutio(luku):
-    return luku**3
-a = 3
-print(f"{a} luvun kuutio on {laske_kuutio(a)}")
+
+    return luku**3  # palauttaa tuloksen
+
+# pääohjelma
+luku = int(input("Anna luku:"))
+vastaus = laske_kuutio(luku)
+print(f"{luku} luvun kuutio on {vastaus}")
